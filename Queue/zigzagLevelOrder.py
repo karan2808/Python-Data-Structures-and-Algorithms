@@ -31,10 +31,12 @@ class Solution:
                     queue.append(currentNode.right)
             # if the flag is set, reverse order of elements
             if flag:
+                # reverse the current level
                 currentLevel.reverse()
                 result.append(currentLevel)
                 flag = False
             else:
+                # append as it is
                 result.append(currentLevel)
                 flag = True
         return result
