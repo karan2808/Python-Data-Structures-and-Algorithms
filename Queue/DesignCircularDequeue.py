@@ -40,7 +40,7 @@ class MyCircularDeque:
             print("Deque is full..")
             return
         if (self.front_idx == -1 and self.back_idx == -1):
-            self.front_idx = self.back_idx = -1
+            self.front_idx = self.back_idx = 0
         else:
             self.back_idx = self.get_idx(self.back_idx + 1)
         # insert the element in the back of the dequeue
