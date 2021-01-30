@@ -17,3 +17,5 @@
 9. N Queens: Given an integer n, find all distinct solutions to the n-queens puzzle.
 
 10. Palindrome Partitioning: Given a string s, partition s, such that every substring of the parition is a palindrome. The goal is to find all possible partitioning of s.
+
+11. Maximum Length of a Concatenated String with Unique Characters: Given an array of strings arr, string s is a concatenation of sub-sequence of arr such that s has unique characters. The objective is to return the maximum possible length of s. 
